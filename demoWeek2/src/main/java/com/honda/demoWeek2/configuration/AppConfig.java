@@ -11,6 +11,7 @@ public class AppConfig {
     @Bean
     @Scope("prototype")
     public String demoBean() {
+        System.out.println("kạhdka");
         return "Hello Nam ngu ngốc vl";
     }
 }
